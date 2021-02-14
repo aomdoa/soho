@@ -11,6 +11,8 @@
  *
  * Designed, built, and released under MIT license by @mdo. Learn more at
  * https://github.com/poole/poole.
+ *
+ * Some changes/hacks made by David Shurgold for his site
  */
 
 
@@ -307,6 +309,10 @@ tbody tr:nth-child(odd) th {
   margin-bottom: 2em;
 }
 
+.post .title {
+  margin-bottom: 0;
+}
+
 /* Blog post or page title */
 .page-title,
 .post-title,
@@ -316,13 +322,15 @@ tbody tr:nth-child(odd) th {
 .page-title,
 .post-title {
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* Meta data line below post title */
 .post-date {
   display: block;
-  margin-bottom: 1rem;
   color: #757575;
+  font-size: smaller;
+  margin-bottom: 0.5em;
 }
 
 /* Related posts */
