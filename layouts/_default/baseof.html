@@ -48,6 +48,7 @@
 
   <link rel="shortcut icon" href="/favicon.png">
 
+  {{ if  $.Site.Params.enableAnalytics -}}
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-TF43GGTXE3"></script>
   <script>
@@ -56,6 +57,7 @@
       gtag('js', new Date());
       gtag('config', 'G-TF43GGTXE3');
   </script>
+  {{- end }}
 
   <!-- RSS -->
   {{ range .AlternativeOutputFormats -}}
