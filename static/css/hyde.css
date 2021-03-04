@@ -112,7 +112,6 @@ a.sidebar-nav-item:focus {
 
 .content {
   padding-top:    2rem;
-  padding-bottom: 2rem;
   min-height: 50%;
 }
 
@@ -127,7 +126,6 @@ footer {
   font-size: .7rem;
   text-align: center;
   height: 40px;
-  margin: 2rem 1rem 0 1rem;
   padding: 1rem 0;
   border-top: 1px solid #e0e0e0;
 }

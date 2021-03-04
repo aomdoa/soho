@@ -14,9 +14,5 @@
   </div>
 
   {{ partial "tags.html" . }}
-
-  {{ if (and (ne .Params.DisableShare true) (ne .Params.disable_share true)) -}}
-  {{ partial "share.html" . }}
-  {{- end }}
 </div>
 {{- end }}
